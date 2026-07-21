@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Escucha Clara",
+    "slug": "escucha-clara",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "scheme": "escuchaclara",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.escuchaclara.app"
+    },
+    "android": {
+      "package": "com.escuchaclara.app",
+      "predictiveBackGestureEnabled": true
+    },
+    "plugins": [
+      [
+        "expo-speech-recognition",
+        {
+          "microphonePermission": "Escucha Clara necesita usar el micrófono para convertir la voz en texto.",
+          "speechRecognitionPermission": "Escucha Clara necesita usar el reconocimiento de voz para mostrar una transcripción en tiempo real.",
+          "androidSpeechServicePackages": [
+            "com.google.android.googlequicksearchbox",
+            "com.google.android.tts",
+            "com.google.android.as"
+          ]
+        }
+      ]
+    ]
+  }
+}
