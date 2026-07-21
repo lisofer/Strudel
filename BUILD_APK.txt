@@ -1,0 +1,1 @@
+Esta rama inicia la compilación automática del APK instalable de Escucha Clara.
